@@ -1,0 +1,29 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rules": {
+    "forin": false,
+    "member-access": [
+      true,
+      "no-public"
+    ],
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "no-console": false,
+    "max-line-length": [
+      true,
+      140
+    ]
+  },
+  "rulesDirectory": [],
+  "linterOptions": {
+    "exclude": [
+      "src/migrations/*.ts"
+    ]
+  }
+}
